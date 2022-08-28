@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding:0;
+        }
+        html{
+            background-image : url("backbg.we") 
+            background-repeat: no-repeat;
+            background-size: contain; 
+        }
+        body {
+           
+            bac
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            /* background-color: grey */
+        }
+
+        nav {
+            background-color: rgb(35, 35, 35);
+            margin: 0px -1px;
+            padding: 19px 9px;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+
+        }
+
+        nav li a {
+            color: white;
+            text-decoration: none;
+            padding: 9px 37px;
+            margin: 0px 0px;
+            font-size: 35px;
+            font: bold;
+           
+        }
+
+        nav li a:hover,
+        nav li a.active {
+            color: grey;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+
+        .container {
+            margin: 83px 558px;
+            padding: 0px -5px;
+        }
+
+
+        .container input {
+            display: flex;
+            flex-direction: row;
+            margin: 16px 29px;
+            padding: 15px 55px;
+            font-size: 18px;
+            border: 2px solid black;
+            text-align: center;
+            border-radius:7px;
+            box-shadow: 2px 2px black;
+
+        }
+
+        button {
+            margin: 2px 141px;
+            padding: 12px 40px;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            box-shadow: 2px 2px black;
+        }
+
+        button:hover {
+            background-color: rgb(68, 68, 198);
+            
+        }
+        .btn{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Login</a></li>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <input type="text" name="" placeholder="Username">
+        <input type="password" name="" placeholder="Password">
+        <input type="number" name="" placeholder="Contact">
+        <input type="number" name="" placeholder="Age">
+        <button class="btn1">Login</button>
+    </div>
+    <!-- <button class="btn">Login</button> -->
+</body>
+
+</html>
